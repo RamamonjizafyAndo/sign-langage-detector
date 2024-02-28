@@ -15,7 +15,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
-labels_dict = {0: '5', 1: '2', 2: '1'} #Vous pouvez changer les labels
+labels_dict = {0: '5', 1: '4', 2: '3'} #Vous pouvez changer les labels
 while True:
 
     data_aux = []
